@@ -1,0 +1,25 @@
+.Task {
+  layout: horizontal;
+  background: $boost;
+  height: 5;
+  margin: 1;
+  padding: 1;
+}
+
+.Task Button#toggle {
+  width: 20;
+  margin-right: 1;
+}
+
+.Task Button#task {
+  text-align: left;
+}
+
+.Task.completed Button#toggle {
+  background: $success;
+  color: $text;
+}
+
+.Task.completed Button#task {
+  color: $text-muted;
+ }
