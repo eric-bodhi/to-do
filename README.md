@@ -1,2 +1,2 @@
-# to-do
-To Do list application from Terminal
+# To-Do List API
+
